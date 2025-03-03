@@ -38,6 +38,7 @@ Para dar inicio e colocar o "servidor" no ar, digite ``` npm run dev ``` no term
 
 URL Base: http://localhost:3000
 
+## Implementação
 Após iniciar o servidor acessar as seguintes rotas:
 
 Método GET:
