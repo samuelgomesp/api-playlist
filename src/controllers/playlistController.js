@@ -115,5 +115,7 @@ module.exports = {
         } else if (indexMusicDeleted === undefined) {
             res.status(404).json({ message: "Playlist not found!" })
         }
+
+        res.status(204).json({ message: "Music deleted successfully!" }).end()
     }
 }
